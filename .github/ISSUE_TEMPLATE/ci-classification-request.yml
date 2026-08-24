@@ -1,0 +1,90 @@
+name: CI classification request
+description: Submit non-sensitive metadata for an inbound GitHub Actions / CI question
+title: "CI classification request: "
+labels:
+  - triage-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This public form accepts non-sensitive metadata only. Do not paste or attach logs, workflow contents, private code, customer data, internal URLs, tokens, secrets, keys, credentials, or screenshots. Formal materials can be considered only after a paid relationship and separate safe intake exist. An Issue is not a purchase or promise of service.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Public-data confirmation
+      options:
+        - label: I confirm this submission contains only non-sensitive metadata and no logs, code, customer data, credentials, internal URLs, or attachments.
+          required: true
+        - label: I understand that opening this Issue does not create a paid engagement or guarantee a response or fix.
+          required: true
+  - type: dropdown
+    id: repository_visibility
+    attributes:
+      label: Repository visibility
+      description: Do not identify a private repository.
+      options:
+        - Public repository
+        - Local fictional reproduction
+        - Prefer not to identify
+    validations:
+      required: true
+  - type: input
+    id: public_repository
+    attributes:
+      label: Public repository URL, if applicable
+      description: Leave empty unless the repository and this exact URL are already public.
+    validations:
+      required: false
+  - type: input
+    id: workflow_name
+    attributes:
+      label: Workflow name
+      description: A non-sensitive display name only; do not paste YAML or a file path from a private repository.
+    validations:
+      required: true
+  - type: dropdown
+    id: runner_os
+    attributes:
+      label: Runner operating system
+      options:
+        - ubuntu
+        - windows
+        - macos
+        - self-hosted or unknown
+    validations:
+      required: true
+  - type: dropdown
+    id: suspected_category
+    attributes:
+      label: Suspected category
+      options:
+        - unknown
+        - YAML or workflow structure
+        - dependency or lockfile
+        - test
+        - permission
+        - cache
+        - matrix
+        - timeout
+        - artifact path
+        - environment or runtime
+    validations:
+      required: true
+  - type: input
+    id: redacted_summary
+    attributes:
+      label: Short redacted summary
+      description: One sentence in your own words. Do not quote logs, code, paths, hostnames, user names, or identifiers.
+    validations:
+      required: true
+  - type: dropdown
+    id: desired_outcome
+    attributes:
+      label: Desired outcome
+      options:
+        - Free-tool usage question
+        - Human diagnosis information
+        - Candidate repair information
+        - Hardening information
+    validations:
+      required: true

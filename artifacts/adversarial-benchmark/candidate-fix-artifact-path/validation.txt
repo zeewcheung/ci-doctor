@@ -1,0 +1,6 @@
+# FICTIONAL SYNTHETIC BENCHMARK local validation
+before_patch_exit=1
+after_patch_exit=0
+workflow_count=1
+patch_within_declared_workflow_scope=true
+github_hosted_run=false

@@ -1,0 +1,8 @@
+--- a/.github/workflows/artifact-upload.yml
++++ b/.github/workflows/artifact-upload.yml
+@@ -9,4 +9,4 @@
+       - uses: actions/upload-artifact@v4
+         with:
+           name: fictional-package
+-          path: build/output/*.tgz
++          path: dist/*.tgz

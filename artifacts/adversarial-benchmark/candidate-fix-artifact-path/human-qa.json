@@ -1,0 +1,17 @@
+{
+  "status": "approved",
+  "reviewer_role": "account_holder",
+  "reviewer": "Weitong Zhang",
+  "signed_at": "2026-08-23T17:00:04+08:00",
+  "checks": {
+    "evidence_supports_conclusion": true,
+    "patch_minimal_or_not_applicable": true,
+    "wording_compliant": true,
+    "sensitive_data_reviewed": true,
+    "scope_confirmed": true,
+    "same_root_cause": true,
+    "workflow_scope_confirmed": true,
+    "local_validation_reviewed": true
+  },
+  "notice": "FICTIONAL LOCAL DEMO. A real human reviewer must complete this gate; no approval is fabricated."
+}

@@ -1,0 +1,22 @@
+{
+  "profile": "repair_candidate",
+  "price_usd": 249,
+  "workflow_count": 1,
+  "workflow_files": [
+    ".github/workflows/artifact-upload.yml"
+  ],
+  "target_calendar_days": 5,
+  "revisions_included": 1,
+  "timezone": "Asia/Shanghai",
+  "communication": "async_written",
+  "customer_applies_patch": true,
+  "temporary_repository_access": false,
+  "input_policy": "sanitized_only",
+  "customer_provided_archive_allowed": true,
+  "retention_days_after_delivery": 7,
+  "privacy_terms_status": "account_holder_approved_default_policy",
+  "early_deletion_on_request": true,
+  "retained_records_contain_customer_data": false,
+  "pricing_status": "unvalidated_internal_test",
+  "notice": "FICTIONAL LOCAL DEMO / SYNTHETIC ADVERSARIAL BENCHMARK \u2014 local-only evaluation, not customer data, production evidence, or a general accuracy claim."
+}

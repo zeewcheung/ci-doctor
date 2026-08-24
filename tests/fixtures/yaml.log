@@ -1,0 +1,2 @@
+Invalid workflow file: .github/workflows/ci.yml#L8
+The workflow is not valid. mapping values are not allowed here

@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "profile": "repair_candidate",
+  "status": "pass",
+  "automated_status": "pass",
+  "human_qa": {
+    "status": "approved",
+    "detail": "human QA signed"
+  },
+  "offline_only": true,
+  "checks": [
+    {
+      "name": "required-files",
+      "passed": true,
+      "detail": "complete"
+    },
+    {
+      "name": "unexpected-files",
+      "passed": true,
+      "detail": "none"
+    },
+    {
+      "name": "sensitive-data-scan",
+      "passed": true,
+      "detail": "no supported secret patterns found"
+    },
+    {
+      "name": "diagnosis-schema",
+      "passed": true,
+      "detail": "supported schema and values"
+    },
+    {
+      "name": "engagement-constraints",
+      "passed": true,
+      "detail": "profile constraints match"
+    },
+    {
+      "name": "report-sections",
+      "passed": true,
+      "detail": "required sections present"
+    },
+    {
+      "name": "demo-label",
+      "passed": true,
+      "detail": "fictional label present"
+    },
+    {
+      "name": "delivery-cover",
+      "passed": true,
+      "detail": "profile status, next step, and limits present"
+    },
+    {
+      "name": "customer-wording",
+      "passed": true,
+      "detail": "no prohibited success claims found"
+    },
+    {
+      "name": "unresolved-placeholders",
+      "passed": true,
+      "detail": "no unresolved customer placeholders found"
+    },
+    {
+      "name": "diagnosis-fix-eligibility",
+      "passed": true,
+      "detail": "diagnosis is not abstained/manual-review"
+    },
+    {
+      "name": "validation-evidence",
+      "passed": true,
+      "detail": "before/after local evidence present"
+    },
+    {
+      "name": "minimal-text-patch",
+      "passed": true,
+      "detail": "2 changed line(s); limit 20"
+    },
+    {
+      "name": "candidate-fix-scope",
+      "passed": true,
+      "detail": "one root cause; patch files match confirmed workflow scope"
+    }
+  ],
+  "findings": [],
+  "files": [
+    {
+      "path": "candidate-fix.json",
+      "bytes": 423,
+      "sha256": "fc036f51a9f0c70cc3910cf603019a5c2805c61fd0cdd373662a94551f542ea7"
+    },
+    {
+      "path": "delivery-cover.md",
+      "bytes": 626,
+      "sha256": "fdeb241ba3aa268b5f50a3cc3cd5dd01da4fa7b1a265c65b1802cc9c01418656"
+    },
+    {
+      "path": "diagnosis.json",
+      "bytes": 743,
+      "sha256": "259328d0a81596aea334f72826118f2874af60e43f61dccec19ccaad6eff5ea7"
+    },
+    {
+      "path": "engagement.json",
+      "bytes": 840,
+      "sha256": "7762788881838be03789df65bdf63718816f9023f271511234d16bcc24295493"
+    },
+    {
+      "path": "failing.log",
+      "bytes": 260,
+      "sha256": "a4898f5a8c76dc5c9b7b72c897e69e397322f186ddc0ac53d117870ef581306e"
+    },
+    {
+      "path": "human-qa.json",
+      "bytes": 558,
+      "sha256": "b175e8618e28aaeedb4fb9abd6c6536f7e79e58f732c44251414ed370a688149"
+    },
+    {
+      "path": "local-reproduction.md",
+      "bytes": 380,
+      "sha256": "a149b611b5b0f5d371de9ea63745a5da2b943422177613633e0a25437b3e830a"
+    },
+    {
+      "path": "minimal-fix.patch",
+      "bytes": 260,
+      "sha256": "fe5aaf06dd3792f572046e3fc62f8147d4abb006b40c83e30d0f7b838132c5fc"
+    },
+    {
+      "path": "passing.log",
+      "bytes": 77,
+      "sha256": "60f891b063aa3c424ebde50437379aab1cb656ecc03a5e0a61120b3ad4871c71"
+    },
+    {
+      "path": "root-cause-report.md",
+      "bytes": 1055,
+      "sha256": "88f4d579b1b22bc820bc0ba230fa84afbe2efc619334fb6902e662772268e01e"
+    },
+    {
+      "path": "validation.txt",
+      "bytes": 171,
+      "sha256": "9093127ef0f3b65d1d3dbc58689efbf50b878708e942aab550f498f1c41f3320"
+    }
+  ]
+}

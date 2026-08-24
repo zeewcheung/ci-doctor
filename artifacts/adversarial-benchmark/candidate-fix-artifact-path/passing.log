@@ -1,0 +1,3 @@
+FICTIONAL SYNTHETIC BENCHMARK
+artifact_pattern=dist/*.tgz
+artifact_matches=1

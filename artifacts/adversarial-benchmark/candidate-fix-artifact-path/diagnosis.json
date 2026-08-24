@@ -1,0 +1,19 @@
+{
+  "category": "artifact",
+  "first_error": "Error: No files were found with the provided path: build/output/*.tgz. No artifacts will be uploaded.",
+  "line_number": 2,
+  "root_cause": "The artifact upload path did not match a file produced in the local workspace.",
+  "confidence": "high",
+  "evidence": [
+    "Error: No files were found with the provided path: build/output/*.tgz. No artifacts will be uploaded."
+  ],
+  "limitations": [
+    "Offline heuristic analysis only; no GitHub API or private repository access was used.",
+    "Validate the proposed change in an isolated branch or local copy before production use."
+  ],
+  "disposition": "diagnose",
+  "manual_review_required": false,
+  "matched_categories": [
+    "artifact"
+  ]
+}

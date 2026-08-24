@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "notice": "FICTIONAL LOCAL DEMO / SYNTHETIC ADVERSARIAL BENCHMARK ONLY. No customer case, publication, hosted runner, or external authorization.",
+  "bundle": "artifacts/adversarial-benchmark/candidate-fix-artifact-path",
+  "authorization_scope": "The account-holder signature applies only to this unchanged artifact_upload_path fictional sample and does not approve any other profile, customer delivery, repository publication, price, or external claim.",
+  "reviewer_role": "account_holder",
+  "reviewer": "Weitong Zhang",
+  "signed_at": "2026-08-23T17:00:04+08:00",
+  "state": {
+    "automated_qa": "pass",
+    "human_qa": "approved",
+    "release_status": "pass",
+    "release_scope": "fictional_sample_only",
+    "github_hosted_validation": false,
+    "production_validation": false
+  },
+  "immutable_nonhuman_bundle_digest": "23f02e4da3345e0c627247285014683c3fb00cc7894ba0034cf512e3ae284a10",
+  "human_qa_sha256": "b175e8618e28aaeedb4fb9abd6c6536f7e79e58f732c44251414ed370a688149",
+  "qa_manifest_sha256_at_signing": "92bcebe853bfb5d8d7022be992f73e55f0e9e11ee51acdb6f4f5967d93516284",
+  "other_gates": {
+    "triage_profile": "blocked_pending_human_qa",
+    "repair_candidate_profile_dry_run": "blocked_pending_human_qa",
+    "hardening_profile": "blocked_pending_human_qa",
+    "portfolio_publication": "blocked_pending_separate_account_holder_approval"
+  },
+  "external_state": {
+    "network_used": false,
+    "real_repository_accessed": false,
+    "github_actions_triggered": false,
+    "published": false,
+    "customer_contacted": false,
+    "payment_activity": false,
+    "software_installed": false
+  }
+}

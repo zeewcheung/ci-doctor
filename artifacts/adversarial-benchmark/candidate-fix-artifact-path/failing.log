@@ -1,0 +1,6 @@
+FICTIONAL SYNTHETIC BENCHMARK
+Error: No files were found with the provided path: build/output/*.tgz. No artifacts will be uploaded.
+Error: Process completed with exit code 1.
+FICTIONAL SYNTHETIC BENCHMARK
+artifact_pattern=build/output/*.tgz
+artifact_matches=0

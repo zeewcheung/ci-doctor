@@ -1,0 +1,22 @@
+{
+  "notice": "FICTIONAL LOCAL DEMO when used with included fixtures; never submit secrets or private code.",
+  "tool_scope": "classification_only",
+  "candidate_fix_generated": false,
+  "category": "permission",
+  "first_error": "fatal: unable to access: The requested URL returned error: 403",
+  "line_number": 2,
+  "root_cause": "A workflow operation was rejected because the token or runner lacks required access.",
+  "confidence": "high",
+  "evidence": [
+    "fatal: unable to access: The requested URL returned error: 403"
+  ],
+  "limitations": [
+    "Offline heuristic analysis only; no GitHub API or private repository access was used.",
+    "Validate the proposed change in an isolated branch or local copy before production use."
+  ],
+  "disposition": "diagnose",
+  "manual_review_required": false,
+  "matched_categories": [
+    "permission"
+  ]
+}

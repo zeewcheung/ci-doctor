@@ -1,0 +1,12 @@
+{
+  "yaml": {"category": "yaml", "confidence": "high"},
+  "dependency": {"category": "dependency", "confidence": "high"},
+  "test": {"category": "test", "confidence": "high"},
+  "permission": {"category": "permission", "confidence": "high"},
+  "cache": {"category": "cache", "confidence": "high"},
+  "matrix": {"category": "matrix", "confidence": "high"},
+  "timeout": {"category": "timeout", "confidence": "high"},
+  "environment": {"category": "environment", "confidence": "high"},
+  "ambiguous": {"category": "unknown", "confidence": "low"},
+  "unknown": {"category": "unknown", "confidence": "low"}
+}

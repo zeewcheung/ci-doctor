@@ -1,0 +1,10 @@
+{
+  "root_cause_id": "FICTIONAL-ADVERSARIAL-ARTIFACT-RC-001",
+  "single_root_cause": true,
+  "patch_files": [
+    ".github/workflows/artifact-upload.yml"
+  ],
+  "local_before_after_required": true,
+  "benchmark_policy": "allowed_with_local_validation",
+  "notice": "FICTIONAL LOCAL DEMO / SYNTHETIC ADVERSARIAL BENCHMARK \u2014 local-only evaluation, not customer data, production evidence, or a general accuracy claim."
+}
